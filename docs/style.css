@@ -73,6 +73,13 @@ body {
     width: 60px;
 }
 
+.content{
+    padding: 0 2rem;
+}
+.content h3{
+    color: var(--main-color);
+}
+
 footer {
     text-align: center;
     padding: 1rem;
