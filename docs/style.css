@@ -50,3 +50,22 @@ body {
 .cta:hover {
     transform: scale(1.5);
 }
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.feature-card {
+    background: #020617;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 0px 20px 1px var(--main-color), 8px 8px 0px 0px var(--main-color), -8px -8px 0px 0px var(--text-color);
+}
+
+.feature-card img {
+    width: 60px;
+}
