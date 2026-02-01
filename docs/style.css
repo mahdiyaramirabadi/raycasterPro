@@ -27,3 +27,26 @@ body {
     color: var(--text-color);
     text-decoration: none;
 }
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h2{
+    color: var(--main-color);
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background: var(--main-color);
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.cta:hover {
+    transform: scale(1.5);
+}
