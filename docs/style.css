@@ -110,3 +110,13 @@ footer {
     background: #020617;
     margin-top: auto;
 }
+
+@media (max-width: 768px) {
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+}
